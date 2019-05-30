@@ -1,0 +1,11 @@
+<div class="footer">
+  <div>
+    <h3>Quick links</h3>
+    <ul>
+      <li>Home</li>
+      <li>About</li>
+      <li *ngIf="isUserLoggedIn">Dashboard</li>
+      <li>{{isUserLoggedIn?'Logout':'Login'}}</li>
+    </ul>
+  </div>
+</div>

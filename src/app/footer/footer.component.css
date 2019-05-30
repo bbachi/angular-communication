@@ -1,0 +1,13 @@
+.footer {
+  width: 100%;
+  padding: 3%;
+  background-color: rgb(226, 43, 150);
+  margin-bottom: 4%;
+  color: white;
+}
+
+ul li{
+  display: block;
+  margin-right: 2%;
+  cursor: pointer;
+}

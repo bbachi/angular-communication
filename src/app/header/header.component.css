@@ -1,0 +1,13 @@
+.header {
+  width: 100%;
+  padding: 3%;
+  background-color: blueviolet;
+  margin-bottom: 4%;
+  color: white;
+}
+
+ul li{
+  display: inline;
+  margin-right: 2%;
+  cursor: pointer;
+}

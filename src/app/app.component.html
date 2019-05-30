@@ -1,0 +1,22 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <app-header
+    [headerTitle]="title"
+    (navOut)="onNavigation($event)"
+    (setLoggedInFlag)="setLoggedInUser($event)"
+  >
+  </app-header>
+  <app-welcome></app-welcome>
+  <div>
+    <h2><span class="page">Page: </span><span class="linkname">{{linkName}}</span></h2>
+  </div>
+  <div>
+      <app-parent></app-parent>
+  </div>
+  <app-footer
+    [isUserLoggedIn]="loginFlag"
+  >
+  </app-footer>
+</div>
+
+<router-outlet></router-outlet>
